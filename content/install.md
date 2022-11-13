@@ -127,4 +127,4 @@ echo "export LANG=$LOCALE" >> /etc/profile
 Kreato Linux only offers `sway` for now and will only support Wayland.
 You can install sway by running `nyaa i sway`.
 More Wayland window managers are coming soon.
-You can also install a foot, a terminal by running `nyaa i foot`
+You can also install foot, a terminal by running `nyaa i foot`

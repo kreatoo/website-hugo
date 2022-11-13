@@ -80,9 +80,9 @@ Now we can continue with installing base system packages.
 ### Installing the init system
 Kreato Linux includes multiple init systems. OpenRC, systemd and busybox init exist as a option.
 
-If you want busybox init, you can install `base-runit`: `nyaa i base-runit`
-If you want OpenRC: you can install `openrc`: `nyaa i openrc`
-If you want systemd: you can install `systemd`: `nyaa i systemd`
+* If you want busybox init, you can install `base-runit`: `nyaa i base-runit`
+* If you want OpenRC: you can install `openrc`: `nyaa i openrc`
+* If you want systemd: you can install `systemd`: `nyaa i systemd`
 
 ### Installing networking tools
 `dhcpcd` is recommended. run `nyaa i dhcpcd` to install `dhcpcd`.

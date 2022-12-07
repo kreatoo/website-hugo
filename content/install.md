@@ -82,7 +82,6 @@ Kreato Linux includes multiple init systems. OpenRC, systemd and busybox init ex
 
 * If you want busybox init, you can install `base-runit`: `nyaa i base-runit`
 * If you want OpenRC: you can install `openrc`: `nyaa i openrc`
-* If you want systemd: you can install `systemd`: `nyaa i systemd`
 
 ### Installing networking tools
 `dhcpcd` is recommended. run `nyaa i dhcpcd` to install `dhcpcd`.
@@ -97,10 +96,11 @@ As for building your own kernel, you can check out [This video](https://www.yout
 ### Installing shadow
 Installing `shadow` is recommended since a lot of software uses shadow.
 Run `nyaa i shadow` to install `shadow`.
+You can enable shadowed passwords by running `pwconv`, and enable shadowed group passwords by running `grpconv`.
 
 ### Installing the bootloader
 Kreato Linux offers multiple bootloaders.
-You can use systemd-boot (if you installed systemd, a standalone version is coming soon), Limine, Grub or if you have a kernel that has EFISTUB enabled (prebuilt kernel does have it enabled), you can use [efictl](https://github.com/kreatolinux/efictl/)
+You can use Limine, Grub or if you have a kernel that has EFISTUB enabled (prebuilt kernel does have it enabled), you can use [efictl](https://github.com/kreatolinux/efictl/)
 
 This guide will show Limine since it is the most tested option.
 You can install Limine by running `nyaa i limine`.

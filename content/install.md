@@ -28,7 +28,7 @@ Kreato Linux is a modular distribution. There are two build types currently avai
 
 nocc-rootfs is completely built by GitHub Actions and as the name implies, doesnt have any compilers by default. You can use binaries to install any compilers, or dont build at all and use the system with just binaries.
 
-builder-rootfs is built with binaries from `mirror.kreato.dev`. It has `builder-essentials` installed and comes with gcc.
+builder-rootfs is also built by GitHub actions and comes with gcc.
 
 More builds will be available soon.
 
@@ -72,8 +72,9 @@ Both choices have their own advantages.
 * Updates are available with a lag. 
 * Has less customizability.
 * Doesn't require building packages, making it more suitable to older/less powerful systems.
+* Is not currently stable, packages may not even exist on the mirror.
 
-This installationg guide will assume that you are gonna install binary packages (`nyaa i packagename`). If you want to build packages, please change `nyaa i` to `nyaa b` so it builds the packages instead of installing the binary.
+This installation guide will assume that you are gonna install binary packages (`nyaa i packagename`). If you want to build packages, please change `nyaa i` to `nyaa b` so it builds the packages instead of installing the binary.
 
 Now we can continue with installing base system packages.
 

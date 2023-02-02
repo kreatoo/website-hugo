@@ -90,14 +90,10 @@ paginate = 5
         name = "Blog"
         url = "/blog"
      [[languages.en.menu.main]]
-        identifier = "Install"
-        name = "Install"
-        url = "/install"
+        identifier = "Wiki"
+        name = "Wiki"
+        url = "https://wiki.linux.kreato.dev"
       [[languages.en.menu.main]]
         identifier = "Source"
         name = "Source"
         url = "https://github.com/kreatolinux"
-      #[[languages.en.menu.main]]
-        #identifier = "Wiki"
-        #name = "Wiki"
-        #url = "/wiki"

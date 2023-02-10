@@ -17,3 +17,9 @@ Kreato Linux uses nyaa, a package manager written in Nim that gives you the choi
 
 ## Good documentation
 Kreato Linux uses manpages for its documentation. A wiki is also coming soon. Manpages are constantly updated and the code has lots of comments to make you understand what is going on.
+
+Wiki is available [Here](https://wiki.linux.kreato.dev).
+
+# Contact
+
+We are on [Discord](https://discord.gg/5vTYnkepX6) and [Matrix](https://matrix.to/#/#linux:kreato.dev).

@@ -9,7 +9,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+  themeColor = "pink"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -64,10 +64,10 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Kreato Linux"
-    subtitle = "A modular Linux distribution"
+    subtitle = "Tinkerer's Linux distribution"
     owner = ""
     keywords = ""
-    #copyright = "(c) Kreato - 2022"
+    copyright = "(c) Kreato - 2023"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"

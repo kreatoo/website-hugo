@@ -30,3 +30,6 @@ Kreato Linux is independent and is maintained by a single person. This means the
 
 # Contact
 We are on [Discord](https://discord.gg/5vTYnkepX6).
+
+# Contribute
+Look at [our wiki](https://wiki.linux.kreato.dev) to understand how Kreato Linux works! You can also donate to me [on Github Sponsors](https://github.com/sponsors/kreatoo) to support the project financially. You can also join our [Discord](https://discord.gg/5vTYnkepX6) server where you can ask anything about the project.

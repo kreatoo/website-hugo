@@ -2,10 +2,6 @@
 title: "About"
 draft: false 
 ---
-# What is Kreato Linux?
-Kreato Linux is an independent Linux(R) distribution focused on modularity, simplicity and code readability.
-
-It is inspired from projects such as KISS Linux, Gentoo and Arch Linux. Its main mission is to be tinkerer's Linux(R) distribution.
 
 # Features
 
@@ -27,9 +23,6 @@ Wiki is available [Here](https://wiki.linux.kreato.dev).
 
 ## Independent
 Kreato Linux is independent and is maintained by a single person. This means the functions of the distribution is made as easy to maintain as possible. 
-
-# Contact
-We are on [Discord](https://discord.gg/5vTYnkepX6).
 
 # Contribute
 Look at [our wiki](https://wiki.linux.kreato.dev) to understand how Kreato Linux works! You can also donate to me [on Github Sponsors](https://github.com/sponsors/kreatoo) to support the project financially. You can also join our [Discord](https://discord.gg/5vTYnkepX6) server where you can ask anything about the project.

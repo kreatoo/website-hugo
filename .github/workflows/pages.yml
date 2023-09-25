@@ -41,6 +41,7 @@ jobs:
           tar -xvf nim.tar.xz
           cd "nim-$NIM_VERSION"
           sudo ./install.sh /usr/bin
+          sudo cp -f bin/* /usr/bin
           cd ..
           rm -rf nim-*
 

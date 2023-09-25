@@ -2,6 +2,15 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "risotto"
 paginate = 5
+title = "Kreato Linux"
+subtitle = "Tinkerer's Linux distribution"
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
 author = "Kreato Linux"
 copyright = "© [Kreato](https://kreato.dev) and Kreato Linux contributors"
 
@@ -89,37 +98,24 @@ url = "https://github.com/sponsors/kreatoo"
   creator = ""
   site = ""
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Kreato Linux"
-    subtitle = "Tinkerer's Linux distribution"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-
-    [languages.en.params.logo]
-      logoText = "Kreato Linux"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "Downloads"
-        name = "Downloads"
-        url = "/downloads"
-      [[languages.en.menu.main]]
-        identifier = "Blog"
-        name = "Blog"
-        url = "/blog"
-     [[languages.en.menu.main]]
-        identifier = "Wiki"
-        name = "Wiki"
-        url = "https://wiki.linux.kreato.dev"
-      [[languages.en.menu.main]]
-        identifier = "Source"
-        name = "Source"
-        url = "https://github.com/kreatolinux"
+[menu]
+  [[menu.main]]
+    identifier = "Downloads"
+    name = "Downloads"
+    url = "/downloads"
+  [[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/blog"
+  [[menu.main]]
+    identifier = "Wiki"
+    name = "Wiki"
+    url = "https://wiki.linux.kreato.dev"
+  [[menu.main]]
+    identifieer = "Packages"
+    name = "Packages"
+    url = "/packages"
+  [[menu.main]]
+    identifier = "Source"
+    name = "Source"
+    url = "https://github.com/kreatolinux"

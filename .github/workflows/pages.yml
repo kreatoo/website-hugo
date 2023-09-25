@@ -45,7 +45,7 @@ jobs:
           sudo cp -r compiler/ "/usr/lib/nim"
           sudo cp -rf config/* -t "/etc/nim"
           sudo cp -rf bin/* -t "/usr/bin"
-          sudo cp -rf "/usr/lib/nim/"*.h "/usr/include"
+          sudo cp -rf "/usr/lib/nim/"*.h "/usr/include" || true
           cd ..
           rm -rf nim-*
 

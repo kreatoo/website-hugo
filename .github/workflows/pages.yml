@@ -49,7 +49,7 @@ jobs:
         run: |
           git clone https://github.com/kreatolinux/src
           cd src
-          nimble install cligen fusion
+          nimble install cligen fusion -y
           make genpkglist
           sudo mv out/genpkglist /bin
           cd ..

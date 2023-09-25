@@ -40,8 +40,12 @@ jobs:
           wget -O nim.tar.xz "https://nim-lang.org/download/nim-$NIM_VERSION-linux_x64.tar.xz"
           tar -xvf nim.tar.xz
           cd "nim-$NIM_VERSION"
-          sudo ./install.sh /usr/bin
-          sudo cp -f bin/* /usr/bin
+          sudo mkdir -p "/usr/include" "/usr/bin" "/etc/nim" "/usr/lib/nim"
+          cp -r lib/ "/usr/lib/nim"
+          cp -r compiler/ "/usr/lib/nim"
+          cp -rf config/* -t "/etc/nim"
+          cp -rf bin/* -t "/usr/bin"
+          cp -rf "/usr/lib/nim/"*.h "/usr/include"
           cd ..
           rm -rf nim-*
 

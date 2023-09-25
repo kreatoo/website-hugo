@@ -31,13 +31,19 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.119.0
+      NIM_VERSION: 
     steps: 
       - name: Install Nim
         run: |
           sudo apt update
-          sudo apt upgrade -y
-          sudo apt install nim -y
-    
+          sudo apt install build-essential -y
+          wget -O nim.tar.xz "https://nim-lang.org/download/nim-$NIM_VERSION-linux_x64.tar.xz"
+          tar -xvf nim.tar.xz
+          cd "nim-$NIM_VERSION"
+          sudo ./install.sh /usr/bin
+          cd ..
+          rm -rf nim-*
+
       - name: Build genpkglist
         run: |
           git clone https://github.com/kreatolinux/src

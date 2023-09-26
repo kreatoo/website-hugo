@@ -20,4 +20,4 @@ If you want, you can also use an stable release off GitHub Releases.
 ## Use kreastrap
 To run kreastrap, you just do `docker compose up builder`. Change `docker compose` with `podman-compose` if you are using podman-compose.
 
-Once finished, your rootfs will be available at `./out`. It builds builder-rootfs by default [(See what build types are)](../installation.md#choosing-the-right-tarball)
+Once finished, your rootfs will be available at `./out`. It builds builder-rootfs by default [(See what build types are)](../installation#choosing-the-right-tarball)

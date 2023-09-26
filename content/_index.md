@@ -25,4 +25,4 @@ Wiki is available [Here](https://wiki.linux.kreato.dev).
 Kreato Linux is independent and is maintained by a single person. This means the functions of the distribution is made as easy to maintain as possible. 
 
 # Contribute
-Look at [our wiki](https://wiki.linux.kreato.dev) to understand how Kreato Linux works! You can also donate to me [on Github Sponsors](https://github.com/sponsors/kreatoo) to support the project financially. You can also join our [Discord](https://discord.gg/5vTYnkepX6) server where you can ask anything about the project.
+Look at [the documentation](./docs) to understand how Kreato Linux works! You can also donate to me [on Github Sponsors](https://github.com/sponsors/kreatoo) to support the project financially. You can also join our [Discord](https://discord.gg/5vTYnkepX6) server where you can ask anything about the project.

@@ -14,8 +14,17 @@ missingBackButtonLabel = "Back to home page"
 author = "Kreato Linux"
 copyright = "© [Kreato](https://kreato.dev) and Kreato Linux contributors"
 
+[markup]
+defaultMarkdownHandler = 'goldmark'
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  style = 'catppuccin-mocha'
+  #lineNos = true
+  lineNumbersInTable = true
+
 [params.theme]
-palette = "tokyo-night-dark"
+palette = "base16-catppuccin-mocha"
 
 [params.about]
 title = "Kreato Linux"
@@ -108,9 +117,9 @@ url = "https://github.com/sponsors/kreatoo"
     name = "Blog"
     url = "/blog"
   [[menu.main]]
-    identifier = "Wiki"
-    name = "Wiki"
-    url = "https://wiki.linux.kreato.dev"
+    identifier = "Documentation"
+    name = "Documentation"
+    url = "/docs"
   [[menu.main]]
     identifieer = "Packages"
     name = "Packages"

@@ -51,7 +51,7 @@ Kreato Linux uses camelCase by default. Try to stick to camelCase. Paths do not 
 
 Example;
 
-```
+```nim
 var destdir = "/tmp/destdir" # wrong
 var destDir = "/tmp/destDir" # correct
 ```

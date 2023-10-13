@@ -36,3 +36,10 @@ Tools such as [chkupd](https://github.com/kreatolinux/src#chkupd) allow Kreato L
 
 # Contribute
 Look at [the documentation](./docs) to understand how Kreato Linux works! You can also donate to me [on Github Sponsors](https://github.com/sponsors/kreatoo) to support the project financially. You can also join our [Discord](https://discord.gg/5vTYnkepX6) server where you can ask anything about the project.
+
+# Sponsors
+We are grateful for the support received by the following organizations:
+
+[Tutanota](https://tutanota.com)
+
+[1Password](https://1password.com)

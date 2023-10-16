@@ -26,7 +26,8 @@ palette = "base16-catppuccin-mocha"
 
 [params.about]
 title = "Kreato"
-description="Welcome to my new website!"
+description="""Throw your soldiers into positions whence there is no escape, and they will prefer death to flight. 
+- Sun Tzu, Art of War"""
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"

@@ -2,8 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "risotto"
 paginate = 5
-title = "Kreato Linux"
-subtitle = "Tinkerer's Linux distribution"
+title = "Kreato's website"
 menuMore = "Show more"
 readMore = "Read more"
 readOtherPosts = "Read other posts"
@@ -11,8 +10,7 @@ newerPosts = "Newer posts"
 olderPosts = "Older posts"
 missingContentMessage = "Page not found..."
 missingBackButtonLabel = "Back to home page"
-author = "Kreato Linux"
-copyright = "© [Kreato](https://kreato.dev) and Kreato Linux contributors"
+author = "Kreato"
 
 [markup]
 defaultMarkdownHandler = 'goldmark'
@@ -27,26 +25,18 @@ defaultMarkdownHandler = 'goldmark'
 palette = "base16-catppuccin-mocha"
 
 [params.about]
-title = "Kreato Linux"
-description="""An independent Linux(R) distribution focused on modularity, simplicity and code readability.
-
-It is inspired from projects such as KISS Linux, Gentoo and Arch Linux. Its main mission is to be tinkerer’s Linux(R) distribution.
-"""
+title = "Kreato"
+description="Welcome to my new website!"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/kreatolinux"
-
-[[params.socialLinks]]
-icon = "fa-solid fa-code-merge"
-title = "Forgejo mirror"
-url = "https://git.kreato.dev/kreatolinux"
+url = "https://github.com/kreatoo"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-discord"
 title = "Discord"
-url = "https://discord.gg/5vTYnkepX6"
+url = "discordapp.com/users/964590469893984347"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-heart"
@@ -109,22 +99,10 @@ url = "https://github.com/sponsors/kreatoo"
 
 [menu]
   [[menu.main]]
-    identifier = "Downloads"
-    name = "Downloads"
-    url = "/downloads"
-  [[menu.main]]
     identifier = "Blog"
     name = "Blog"
     url = "/blog"
   [[menu.main]]
-    identifier = "Documentation"
-    name = "Documentation"
-    url = "/docs"
-  [[menu.main]]
-    identifieer = "Packages"
-    name = "Packages"
-    url = "/packages"
-  [[menu.main]]
     identifier = "Source"
     name = "Source"
-    url = "https://github.com/kreatolinux"
+    url = "https://github.com/kreatoo/website-hugo"

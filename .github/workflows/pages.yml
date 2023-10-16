@@ -35,31 +35,6 @@ jobs:
       HUGO_VERSION: 0.119.0
       NIM_VERSION: 2.0.0
     steps: 
-      - name: Install Nim
-        run: |
-          sudo apt update
-          sudo apt install build-essential -y
-          wget -O nim.tar.xz "https://nim-lang.org/download/nim-$NIM_VERSION-linux_x64.tar.xz"
-          tar -xvf nim.tar.xz
-          cd "nim-$NIM_VERSION"
-          sudo mkdir -p "/usr/include" "/usr/bin" "/etc/nim" "/usr/lib/nim"
-          sudo cp -r lib/ "/usr/lib/nim"
-          sudo cp -r compiler/ "/usr/lib/nim"
-          sudo cp -rf config/* -t "/etc/nim"
-          sudo cp -rf bin/* -t "/usr/bin"
-          sudo cp -rf "/usr/lib/nim/"*.h "/usr/include" || true
-          cd ..
-          rm -rf nim-*
-
-      - name: Build genpkglist
-        run: |
-          git clone https://github.com/kreatolinux/src
-          cd src
-          nimble install cligen fusion -y
-          make genpkglist
-          sudo mv out/genpkglist /bin
-          cd ..
-   
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
@@ -73,13 +48,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
-      
-      - name: Generate packages directory
-        run: |
-          git clone https://github.com/kreatolinux/kpkg-repo
-          mkdir "$GITHUB_WORKSPACE/content/packages"
-          genpkglist generate --all --pkgPath=kpkg-repo --output="$GITHUB_WORKSPACE/content/packages" -v      
-          rm -rf kpkg-repo
  
       - name: Build with Hugo
         env:

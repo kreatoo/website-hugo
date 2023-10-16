@@ -1,45 +1,30 @@
----
-title: "About"
-draft: false 
----
+# Building things for a tinkerer, by a tinkerer
+I am a novice programmer, Linux and Windows System Administrator and a Free Software advocate.
 
-# Features
+I build tools/general software aimed at the tinkerer.
 
-## Modular core
-Kreato Linux's modular building tools allow you to mix-and-match components and create your own unique setup.
+I am the founder of [Kreato Linux](https://linux.kreato.dev) and i also made multiple smaller projects.
 
-Unlike other distributions, Kreato Linux does not have a `base` package. You create your own base, with the choices provided by the Kreastrap tool, that allows you to build the system.
+My hobbies include music, anime, retro computers, the usual geek stuff.
 
-Our goal is to provide the most modular Linux system to exist. Most tools of Kreato Linux are built with portability in mind for this very reason.
+This website include my rants, and blogs.
 
-## Jumpstart
-Jumpstart is Kreato Linux's default init system, written in Nim. It allows as much modularity as possible to the user, while being minimal and easy-to-use.
+# Languages I know
+I know Nim, Python, Bash/POSIX sh, HTML5, CSS, sass, some PowerShell and some Svelte.
 
-Jumpstart is inspired from init systems such as systemd.
+I use Nim for most tasks.
 
-Nothing is stopping you from using other init systems, such as systemd and OpenRC.
+# Software I use
+I use [Kreato Linux](https://linux.kreato.dev) on my computer, with these applications;
 
-## Source/Binary hybrid package manager
-Kreato Linux uses kpkg, a package manager written in Nim that gives you the choice of building or installing binaries with ease. This way you can choose what's best for your usecase.
+* Password manager: 1Password
+* Browser: Vivaldi
+* Note-taking app: Obsidian
+* Chat: Telegram, Discord, Matrix
+* Office: Onlyoffice
+* Editor: Vim with a couple of plugins
 
-Kpkg is fast, and simple. It supports scripts named runfiles that allow you to easyly write packages, similar to other script-based formats. You can learn more about it from the kpkg_run(5) manpage.
+Software I use changes overtime and this list may not be up-to-date.
 
-## Good documentation
-Kreato Linux uses manpages for its documentation. A documentation webpage is also available. Manpages are constantly updated and the code has been written in a way to be understandable.
-
-Documentation is available [here](./docs).
-
-## Independent
-Kreato Linux is independent and is maintained by a single person. This means the functions of the distribution is made as easy to maintain as possible. 
-
-Tools such as [chkupd](https://github.com/kreatolinux/src#chkupd) allow Kreato Linux to be easy to maintain for a single person.
-
-# Contribute
-Look at [the documentation](./docs) to understand how Kreato Linux works! You can also donate to me [on Github Sponsors](https://github.com/sponsors/kreatoo) to support the project financially. You can also join our [Discord](https://discord.gg/5vTYnkepX6) server where you can ask anything about the project.
-
-# Sponsors
-We are grateful for the support received by the following organizations:
-
-[Tutanota](https://tutanota.com)
-
-[1Password](https://1password.com)
+# Contact
+Contact me on Matrix (@kreato:kreato.dev), Discord (@kreatoo) or [on email](mailto:kreato@kreato.dev).

@@ -25,7 +25,7 @@ defaultMarkdownHandler = 'goldmark'
 palette = "base16-catppuccin-mocha"
 
 [params.about]
-title = "Kreato"
+title = "Quote of the week"
 description="""Why would you put quotes on a distro site?. 
 - Someone that cant read"""
 
@@ -37,7 +37,12 @@ url = "https://github.com/kreatoo"
 [[params.socialLinks]]
 icon = "fa-brands fa-discord"
 title = "Discord"
-url = "discordapp.com/users/964590469893984347"
+url = "https://discordapp.com/users/964590469893984347"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-steam"
+title = "Steam"
+url = "https://steamcommunity.com/id/kreato"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-heart"
@@ -103,6 +108,10 @@ url = "https://github.com/sponsors/kreatoo"
     identifier = "Blog"
     name = "Blog"
     url = "/blog"
+  [[menu.main]]
+    identifier = "linux"
+    name = "linux"
+    url = "https://linux.kreato.dev"
   [[menu.main]]
     identifier = "Source"
     name = "Source"

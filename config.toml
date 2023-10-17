@@ -26,8 +26,8 @@ palette = "base16-catppuccin-mocha"
 
 [params.about]
 title = "Quote of the week"
-description="""Why would you put quotes on a distro site?. 
-- Someone that cant read"""
+description="""Throw your soldiers into positions whence there is no escape, and they will prefer death to flight. 
+- Sun Tzu, Art of War"""
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
